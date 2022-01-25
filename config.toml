@@ -1,6 +1,6 @@
-baseURL = 'http://www.fieldsite.net'
+baseURL = 'http://www.fieldside.net'
 languageCode = 'ja-jp'
-title = 'fieldsite.net'
+title = 'fieldside.net'
 theme = "tella"
 
 [params]
@@ -16,7 +16,7 @@ theme = "tella"
     size = "h-14"
 
   [params.site]
-    name = "fieldsite.net"
+    name = "fieldside.net"
 
   [params.icon]
     #If you want to use FontAwesome, set this parameter to true.
