@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fieldside.net</title>
+    <link>http://www.fieldside.net/</link>
+    <description>Recent content on fieldside.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language><atom:link href="http://www.fieldside.net/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
