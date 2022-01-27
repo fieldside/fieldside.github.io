@@ -3,6 +3,11 @@ languageCode = 'ja-jp'
 title = 'fieldside.net'
 theme = "tella"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
 
   mainSections = ['blog']
@@ -34,12 +39,6 @@ theme = "tella"
     meta_twitter_creator = "@username"
 
 [menu]
-
-  [[menu.main]]
-    identifier = "products"
-    name = "Products"
-    url = "/products/"
-    weight = 1
 
   [[menu.main]]
     identifier = "about"
