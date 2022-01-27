@@ -1,4 +1,26 @@
-/* 
+/*
  This CSS file is used to override the existing styles of the theme.
  You can change the article headings, fonts, colors, etc.
 */
+.kaisha {
+width: 100%;
+}
+
+.kaisha th,
+.kaisha td {
+border: 1px solid #ccc;
+padding: 20px;
+}
+
+.kaisha th {
+font-weight: bold;
+background-color: #dedede; 
+}
+
+@media screen and (max-width: 767px) {
+.kaisha,
+.kaisha tr,
+.kaisha td,
+.kaisha th {display:block;}
+.kaisha th {width:auto;}
+}
