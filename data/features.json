@@ -2,12 +2,14 @@
   {
     "title": "Amazon",
     "description": "amazon販売実績あり",
-    "icon": "icon-desktop_windows"
+    "img": "img/strip/amazon.jpg",
+    "link": "https://www.amazon.co.jp/sp?_encoding=UTF8&asin=&isAmazonFulfilled=1&isCBA=&marketplaceID=A1VC38T7YXB528&orderID=&protocol=current&seller=AECFKT2VLMKIZ&sshmPath="
   },
   {
     "title": "Yahoo",
-    "description": "Yahooショップ開設準備中",
-    "icon": "icon-lightbulb_outline"
+    "description": "Yahooショップ販売実績あり",
+    "img":"img/strip/yahoo.png",
+    "link": "https://store.shopping.yahoo.co.jp/omorihaisou/"
   },
   {
     "title": "自社ショップ",
