@@ -1,9 +1,9 @@
 +++
 title = "About"
-description = "Hugo, the world's fastest framework for building websites"
+description = "企業情報"
 date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+aliases = ["corporate"]
+author = "nono"
 +++
 <table class="kaisha">
    <tr>
@@ -35,4 +35,3 @@ author = "Hugo Authors"
       <td>300万円</td>
    </tr>
 </table>
-
