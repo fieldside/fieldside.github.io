@@ -2,14 +2,12 @@
   {
     "title": "",
     "description": "amazon販売実績あり",
-    "img": "img/strip/amazon.jpg",
-    "link": "https://www.amazon.co.jp/sp?_encoding=UTF8&asin=&isAmazonFulfilled=1&isCBA=&marketplaceID=A1VC38T7YXB528&orderID=&protocol=current&seller=AECFKT2VLMKIZ&sshmPath="
+    "img": "img/strip/amazon.jpg"
   },
   {
     "title": "",
     "description": "Yahooショップ販売実績あり",
-    "img":"img/strip/yahoo.png",
-    "link": "https://store.shopping.yahoo.co.jp/omorihaisou/"
+    "img":"img/strip/yahoo.png"
   },
   {
     "title": "",
