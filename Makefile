@@ -17,6 +17,7 @@ edit: ## Edit specific post
 
 deploy: ## Deploy posts
 	hugo
+	cp CNAME public/
 	rm -fr tmp && mkdir -p tmp && cd tmp && git clone https://ken-aio:${GITHUB_PAT}@github.com/fieldside/fieldside.github.io.git
 	rm -fr $(GITHUB_DIR)/*
 	cp -fr public/* $(GITHUB_DIR)/
