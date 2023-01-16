@@ -2,16 +2,39 @@
   {
     "title": "",
     "description": "amazon販売実績あり",
-    "img": "img/strip/amazon.jpg"
+    "img": "img/strip/amazon.jpg",
+    "link": "https://www.amazon.co.jp/sp?ie=UTF8&seller=AECFKT2VLMKIZ&asin=B0B5L4GN7J&ref_=dp_merchant_link&isAmazonFulfilled=1",
+    "type": "sedori"
   },
   {
     "title": "",
     "description": "Yahooショップ販売実績あり",
-    "img":"img/strip/yahoo.png"
+    "img":"img/strip/yahoo.png",
+    "link": "https://store.shopping.yahoo.co.jp/omorihaisou/",
+    "type": "sedori"
   },
   {
     "title": "",
     "description": "自社ショップ販売実績あり",
-    "img":"img/strip/shopify.png"
+    "img":"img/strip/shopify.png",
+    "type": "sedori"
+  },
+  {
+    "title": "",
+    "description": "Webアプリ開発",
+    "img": "img/strip/web.png",
+    "type": "dev"
+  },
+  {
+    "title": "",
+    "description": "モバイルアプリ開発",
+    "img":"img/strip/mobile.png",
+    "type": "dev"
+  },
+  {
+    "title": "",
+    "description": "その他ツールの開発",
+    "img":"img/strip/pc.png",
+    "type": "dev"
   }
 ]

@@ -1,22 +1,54 @@
 {{if .Site.Data.features}}
 <div class="bg-tlgray-200 py-6 md:py-10">
     <div class="container mx-auto max-w-7xl">
+        <h2 class="text-4xl center">物販ビジネス</h2>
+        <br>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
             {{ range .Site.Data.features }}
-            {{if .link }}<a href="{{ .link }}" target="_blank">{{ end }}
-                <div class="bg-white text-center mx-2 px-4 py-10 duration-300 transform hover:-translate-y-1 hover:shadow-lg">
-                    <div class="p-1" style="text-align: center;">
-                        {{if .icon }}
-                        <span class="{{ .icon }} text-5xl"></span>
-                        {{ end }}
-                        {{if .img }}
-                        <img src="{{ .img }}" style="margin : 0 auto; height: 4rem;">
-                        {{ end }}
-                        <h2 class="text-2xl">{{ .title }}</h2>
-                        <p class="sans">{{ .description | markdownify }}</p>
-                    </div>
-                </div>
-                {{if .link }}</a>{{ end }}
+            {{if eq .type "sedori"}}
+              {{if .link }}<a href="{{ .link }}" target="_blank">{{ end }}
+                  <div class="bg-white text-center mx-2 px-4 py-10 duration-300 transform hover:-translate-y-1 hover:shadow-lg">
+                      <div class="p-1" style="text-align: center;">
+                          {{if .icon }}
+                          <span class="{{ .icon }} text-5xl"></span>
+                          {{ end }}
+                          {{if .img }}
+                          <img src="{{ .img }}" style="margin : 0 auto; height: 4rem;">
+                          {{ end }}
+                          <h2 class="text-2xl">{{ .title }}</h2>
+                          <p class="sans">{{ .description | markdownify }}</p>
+                      </div>
+                  </div>
+                  {{if .link }}</a>{{ end }}
+              {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{end}}
+{{if .Site.Data.features}}
+<div class="bg-tlgray-200 py-6 md:py-10">
+    <div class="container mx-auto max-w-7xl">
+        <h2 class="text-4xl center">システム開発</h2>
+        <br>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+            {{ range .Site.Data.features }}
+            {{if eq .type "dev"}}
+              {{if .link }}<a href="{{ .link }}" target="_blank">{{ end }}
+                  <div class="bg-white text-center mx-2 px-4 py-10 duration-300 transform hover:-translate-y-1 hover:shadow-lg">
+                      <div class="p-1" style="text-align: center;">
+                          {{if .icon }}
+                          <span class="{{ .icon }} text-5xl"></span>
+                          {{ end }}
+                          {{if .img }}
+                          <img src="{{ .img }}" style="margin : 0 auto; height: 4rem;">
+                          {{ end }}
+                          <h2 class="text-2xl">{{ .title }}</h2>
+                          <p class="sans">{{ .description | markdownify }}</p>
+                      </div>
+                  </div>
+                  {{if .link }}</a>{{ end }}
+              {{ end }}
             {{ end }}
         </div>
     </div>
